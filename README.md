@@ -10,9 +10,9 @@
 
 ### Deployment
 * Deploy Timesketch instance - [Deployment Directions](https://github.com/google/timesketch/blob/master/docs/getting-started/install.md)
-* python3/pip3, awscli, and inotify-tools are required
+* python3/pip3, awscli, unzip, and inotify-tools are required
   ```
-  apt install python3 python3-pip inotify-tools
+  apt install python3 python3-pip unzip inotify-tools
   pip3 install --upgrade awscli
   ```
 * Configure AWS CLI
