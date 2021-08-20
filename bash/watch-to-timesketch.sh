@@ -24,7 +24,7 @@ process_files () {
     sleep 10 
 
     # Run timesketch_importer to send Plaso data to Timesketch
-    docker exec -i timesketch_timesketch-worker_1 /bin/bash -c "timesketch_importer -u $username -p "$password" --host http://timesketch-web:5000 --timeline_name $SYSTEM /usr/share/timesketch/upload/plaso/$SYSTEM.plaso"
+    docker exec -i timesketch_timesketch-worker_1 /bin/bash -c "timesketch_importer -u $username -p "$password" --host http://timesketch-web:5000 --timeline_name $SYSTEM --sketch_name $SYSTEM /usr/share/timesketch/upload/plaso/$SYSTEM.plaso"
 
     # Copy Plaso files to dir being watched to upload to S3
     cp -ar /usr/share/timesketch/upload/plaso/$SYSTEM.plaso /usr/share/timesketch/upload/plaso_complete
