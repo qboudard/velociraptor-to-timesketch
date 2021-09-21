@@ -2,6 +2,8 @@
 
 ![sketch](https://user-images.githubusercontent.com/4219694/126829968-b613e88b-d558-4a67-a70f-c5198353b284.jpg)
 
+### Watch our DFIR Summit talk
+[![Breaches Be Crazy](http://img.youtube.com/vi/AuOWMz1nXqk/0.jpg)](https://www.youtube.com/watch?v=AuOWMz1nXqk "Breaches Be Crazy")
 
 **We will be working on making this a pre-baked AMI, but here are the deployment steps in the meantime <3**
 
